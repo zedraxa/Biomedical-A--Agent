@@ -1,6 +1,8 @@
-Kullanmış olduğum işletim sisteminde localde openclaw kullanmamın zahmetli olması, autogpt'nin de api'a olan bağlılığı sebebiyle tatilde başladığım ihtiyaca yönelik AI agent projesi.
+Kullanmış olduğum işletim sisteminde(parrotOS) localde openclaw kullanmamın zahmetli olması, autogpt'nin de api'a olan bağlılığı sebebiyle tatilde başladığım ihtiyaca yönelik AI agent projesi. (henüz başarıya ulaşmadı)
 Ollama ile localde bulunan bir model kullanarak çalışıyor.
 Ben qwen2.5:7b-instruct kullanıyorum
+direkt klasör halinde google drive linkinden indrilip kurulabilir
+https://drive.google.com/drive/folders/1KiGFjYKPrYTkNX68Vb8W07MAqU8X_xOm?usp=drive_link
 
 Kullanım 
 cd ~/ai-agent
