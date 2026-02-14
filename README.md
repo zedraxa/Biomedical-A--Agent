@@ -10,6 +10,7 @@ source venv/bin/activate
 python agent.py
 kodlarını terminale girdikten sonra agentın açılmasını bekleyin 
 daha sonrasında talebinizi girin,eğer talebiniz web araması içeriyorsa talebinize ALLOW_WEB_SEARCH komutunu ekleyin
+terminale exit yazarak çıkılabilir
 
 Örnek Senaryo:
  çalıştırmak için:
