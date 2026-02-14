@@ -18,3 +18,16 @@ terminale exit yazarak çıkılabilir
 
  prompt:
   PROJECT: wine_quality ALLOW_WEB_SEARCH | UCI Wine Quality datasetini bul; indirilebilir CSV linkini çıkar ve data/raw/ içine indir; src/train.py yaz: pandas+sklearn ile baseline model eğit, accuracy ve ROC-AUC hesapla; results/metrics.json ve report.md üret; sonra training scriptini çalıştır.
+
+  En son halinde bu propmt için göstermiş olduğu metrikler:
+  
+   
+   cat results/metrics.json
+{
+  "dataset": "UCI Wine Quality (red)",
+  "test_size": 0.2,
+  "random_state": 42,
+  "model": "StandardScaler + LogisticRegression(lbfgs)",
+  "accuracy": 0.590625,
+  "roc_auc_ovr_macro": 0.7639904835106219
+}(
